@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d8b4f8; /* lilac */
+    color: black;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-kiri {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-kanan {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.nav-kanan li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* HOME */
+.home{
+    display: flex;
+    background-color: #fbcfe8; /* baby pink */
+    color: black;
+}
+
+.home-kiri {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.home-kanan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto {
+    width: 5cm;
+    height: auto;
+    margin-left: 70px;
+}
+
+/* BUTTON */
+.btn {
+    background-color: #d8b4f8; /* lilac */
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+/* ABOUT */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    gap: 10px;
+    padding: 20px;
+    background-color: #e9d5ff; /* lilac soft */
+}
+
+.about div a {
+    text-decoration: none;
+    background-color: #fbcfe8; /* baby pink */
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d8b4f8; /* lilac */
+    color: black;
+    padding: 10px;
+}
